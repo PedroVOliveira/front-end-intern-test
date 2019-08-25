@@ -1,0 +1,74 @@
+﻿/* font-family: 'Cookie', cursive; */
+@import url('https://fonts.googleapis.com/css?family=Cookie&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+/*Codigo CSS Desktop da Página */
+body{
+    background-image: url("../assets/04-BG.png");
+    margin: 0;
+    padding: 0;
+}
+.nav-img{
+    background-color: #acd0b6;
+    position: relative;
+}
+/* Relacionada a imagem dentro da navegação */
+.nav-img img{
+    display: block;
+    max-width: 100%;
+    margin: 0px auto;
+    padding: 1em;
+}
+/*Classe relacionada a div principal do formulário */
+.area-form{
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+h1 {
+    /*Fonte descrita na SPECS */
+    font-family:'Cookie', cursive, sans-serif;;
+    /*Tamanho Descrito na SPECS */
+    font-size: 71px;
+    font-weight: lighter;
+    line-height: .7em;
+    color: #e2edcd;
+    margin-bottom: .5em;
+    text-align: center;
+    width: 415px;
+}
+/*Formulário */
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+input, textarea {
+    font-family: 'Open Sans', 'Open Sans Light',sans-serif;
+    /*Font descrita na SPECS */
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+}
+textarea {
+    height: 120px;
+}
+/* Estilização do Botão */
+.btn-green {
+    background-color: #71a397;
+    font-family: sans-serif bold;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 22px;
+    border-bottom: 8px #4c8979 solid;
+    cursor: pointer;
+}
+.btn-green:hover{
+    background:#4c8979;
+}
+
+
+
